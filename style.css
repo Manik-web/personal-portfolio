@@ -1,13 +1,30 @@
 html{
     font-family:'Raleway', sans-serif;
 }
-#welcome-section, #projects, #contact{
+#navbar {
+    position:fixed;
+    top: 0;
     width: 100%;
-    height: 200px;
+    background:white;
+}
+#welcome-section, #projects, #contact{
+    background:lightsalmon;
+    width: 100%;
+  
     text-align:center;
-    margin-top: 200px;
+    
+}
+#welcome-section{
+    height:100vh;
+    margin-top:30px;
 }
 
 .fab -fa-facebook-square::before {
     font-family: "Font Awesome 5 Brands"; content: "\f099";
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size:14pt;
+    }
   }
