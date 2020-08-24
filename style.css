@@ -1,6 +1,8 @@
 html{
     font-family:'Raleway', sans-serif;
 }
+
+/* navbar styling*/
 #navbar {
     position:fixed;
     top: 0;
@@ -11,7 +13,6 @@ html{
     display:flex;
     justify-content:end;
     align-items:center;
-    
 }
 #navbar a{
     margin-right:5px;
@@ -21,7 +22,7 @@ html{
 #navbar a:hover{
     background:#445680;
 }
-
+/* wlecome section styling*/
 #welcome-section{
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     color:white;
@@ -39,7 +40,28 @@ html{
     font-size:26pt;
     color:#bd3043;
 }
-#projects, #contact{
+
+/*projects styling*/
+#projects{
+    text-align:center;
+    background:#445680;
+    height:100vh;
+    width:100%; 
+}
+#project-header{
+    width:530px;
+    font-size:26pt;
+    padding-top:100px;
+    color:white;
+    border-bottom: 0.2rem solid white;
+    margin:auto;
+}
+
+
+
+
+/*contact*/
+#contact{
     background:lightsalmon;
     width: 100%;
    
