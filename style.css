@@ -14,6 +14,9 @@ html{
     justify-content:end;
     align-items:center;
 }
+img{
+    display:block;
+}
 #navbar a{
     margin-right:5px;
     color:white;
@@ -47,6 +50,7 @@ html{
     background:#445680;
     height:100vh;
     width:100%; 
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 #project-header{
     width:530px;
@@ -55,6 +59,11 @@ html{
     color:white;
     border-bottom: 0.2rem solid white;
     margin:auto;
+}
+.projec-tile{
+height: 100px;
+width: 100px;
+object-fit: cover;
 }
 
 
